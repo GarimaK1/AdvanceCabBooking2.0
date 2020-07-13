@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  min-height: 100vh;  /* this made all the difference for sticky footer */
+  flex-direction: column;
+}
+div {
+  flex: 1 0 auto;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+app-footer {
+  flex-shrink: 0;
+}
+/* Medium devices (desktops, 960px and up) */
+@media screen and (min-width: 960px) {
+  div {
+    flex: 1 0 auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+  }
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  flex: 1 0 auto;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 60%;
+}
+app-footer {
+  flex-shrink: 0;
+} */

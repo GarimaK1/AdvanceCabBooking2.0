@@ -1,0 +1,35 @@
+mat-spinner {
+  margin: auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-card {
+  width: 90%;
+  margin: auto;
+}
+/* Small devices (600px and up) */
+@media screen and (min-width: 600px) {
+  mat-card {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+div {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+/* Small devices (600px and up) */
+@media screen and (min-width: 600px) {
+  div {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
