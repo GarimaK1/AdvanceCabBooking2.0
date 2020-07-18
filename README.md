@@ -28,7 +28,7 @@ MEAN = MongoDB, Express, Angular, Node
 
 **Note**: 
 
-You will need dummy paypal credentials given above to complete payment for booking a cab.
+You will need dummy paypal credentials given below to complete payment for booking a cab.
 
 Please don't use real paypal credentials!
 
