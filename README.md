@@ -68,24 +68,22 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ### Preview Images: 
 
-#### Google Map on Areas Served Page
-
-![Google Map on Areas Served Page](https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/master/ImagePreviewAreasServed.jpg)
-
 #### Schedule Cab Page
 
 ![Schedule Cab Page](https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/master/ImagePreviewBookCab.png)
-
-#### Schedule Cab Page
-
-![Contact Us Page](https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/master/ImagePreviewContactUs.jpg)
-
-#### Payment using Paypal Checkout Smart Buttons
-
-![Payment using Paypal Checkout Smart Buttons](https://github.com/GarimaK1/AdvanceCabBooking_Deployed/blob/master/ImagePreviewPaypalSmartButtons.jpg)
 
 #### Google PLaces API to Auto-Populate Addresses and Find Distance to Calculate Cab Fare
 
 ![Google PLaces API to auto-populate address](https://github.com/GarimaK1/AdvanceCabBooking_Deployed/blob/master/ImagePreviewGooglePlacesAPI.jpg)
 
+#### Payment using Paypal Checkout Smart Buttons
 
+![Payment using Paypal Checkout Smart Buttons](https://github.com/GarimaK1/AdvanceCabBooking_Deployed/blob/master/ImagePreviewPaypalSmartButtons.jpg)
+
+#### Google Map on Areas Served Page
+
+![Google Map on Areas Served Page](https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/master/ImagePreviewAreasServed.jpg)
+
+#### Contact Us Page
+
+![Contact Us Page](https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/master/ImagePreviewContactUs.jpg)
