@@ -42,6 +42,17 @@ app.use((req, res, next) => {
 app.use('/api/ContactForms', contactFormRoutes);
 app.use('/api/scheduleCabForm', scheduleCabFormRoutes);
 app.use('/api/user', userLoginRoutes);
+
+// Serve static assets in production
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder
+  app.use(express.static('dist\advanceCabBooking'));
+
+  // Important to put this below all the other routes.
+  // Because the production build will be created in 'client/build', will have index.html
+  app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'dist', 'advanceCabBooking', 'index.html')));
+}
+
 app.use(errorMiddleware);
 
 module.exports = app;
