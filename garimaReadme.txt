@@ -107,3 +107,12 @@ References:
 
 https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/learn/lecture/14852496?start=210#overview
 -------------------------------------------------------------------------------------------------------------
+
+Notes 15 December 2021:
+Deploying the app to heroku as a node app, as I closed AWS account
+Added heroku as remote
+Added Procfile with start command
+Added 'heroku-postbuild' in package.json
+Added 'engines' entry in package.json
+Heroku doesn't install devDependencies. So we can't use nodemon in production.
+  So, using heroku config vars on Heroku dashboard for storing db credentials and jwt key
