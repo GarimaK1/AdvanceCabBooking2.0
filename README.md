@@ -52,7 +52,7 @@ Please don't use real paypal credentials!
 
  -- required to successfully complete end-to-end flow for new cab booking.
  
-### Visit website: http://advancecabbooking2.0.s3-website-us-east-1.amazonaws.com/
+### Visit website: https://advance-cab-booking.herokuapp.com
 
 ## AdvanceCabBooking Development Environment
 
