@@ -117,3 +117,12 @@ Added 'engines' entry in package.json
 Heroku doesn't install devDependencies. So we can't use nodemon in production.
   So, removed nodemon.json file.
   Using heroku config vars on Heroku dashboard now for storing db credentials and jwt key
+
+For old environment variables:
+https://github.com/GarimaK1/AdvanceCabBooking2.0/blob/477bda85d76a477e1015d3a4f5bb37d6010f6411/nodemon.json
+-------------------------------------------------------------------------------------------------------------
+Hiding API key on Angular
+https://indepth.dev/tutorials/angular/inject-environment-variables
+https://www.freecodecamp.org/news/private-api-keys/
+
+-------------------------------------------------------------------------------------------------------------
